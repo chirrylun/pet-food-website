@@ -41,12 +41,25 @@
     color: red;
 }
 .nav-bar button{
-    background-color: white;
-    border-color: red;
+    background-color: red;
+    border: 0;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     height: 40px;
-   
+    transition: 0.30s ease;
+}
+.nav-bar button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.30s ease;
+}
+.nav-bar button:hover a {
+    color: white;
+    transition: 0.30s ease;
+}
+.get-started-button a{
+    text-decoration: none;
+    color: black;
 }
 .intro-cta{
     text-align: center;
@@ -54,7 +67,12 @@
 }
 .intro-cta h1 span{
     color: red;
-
+}
+.pet-owner-cover{
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/pet\ owner.jpg);
+    height: 100vh;
 }
 
 
