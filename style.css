@@ -95,7 +95,10 @@
     width: 650px;
 }
 .benefits-text h1{
-
+padding-bottom: 10px;
+}
+.bt2{
+    margin-bottom: 15px;
 }
 .food-image{
 width: 300px;
