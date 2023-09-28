@@ -4,10 +4,10 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 .nav-bar{
     align-items: center;
-    
     display: flex;
     justify-content: space-between;
     box-shadow: 2px 2px 7px lightcoral ;
@@ -73,6 +73,35 @@
     background-size: cover;
     background-image: url(images/pet\ owner.jpg);
     height: 100vh;
+}
+.body-info-1{
+    height: 100vh;
+    padding: 15px 60px;
+    display: flex;
+    
+    text-align: left;
+}
+.benefits{
+    
+    align-items: center;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12rem;
+    max-width: 100vw;
+   
+}
+.benefits-text{
+    width: 650px;
+}
+.benefits-text h1{
+
+}
+.food-image{
+width: 300px;
+}
+.food-image img{
+    width: 100%;
 }
 
 
