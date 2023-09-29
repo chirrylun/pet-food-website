@@ -133,6 +133,7 @@
   background-color: white;
   padding: 10px;
   border-radius: 30px;
+  box-shadow: 2px 2px 2px rgba(94, 94, 94, 0.37);
 }
 .feature-container1 i {
   color: red;
@@ -142,6 +143,27 @@
   text-align: center;
 }
 .feature-container-text h2 {
-  color: Red;
+  color: black;
   padding-bottom: 10px;
+}
+.write-up1{
+  padding-top: 60px;
+}
+.write-up1-content{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.write-up-image{
+  width: 450px;
+}
+.write-up-image img{
+  width: 100%;
+}
+.write-up-text1{
+  padding-bottom: 20px;
+}
+.write-up-text h2{
+  padding-bottom: 10px;
+
 }
