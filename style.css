@@ -48,7 +48,7 @@
 .nav-bar button {
   background-color: red;
   border: 0;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
   height: 40px;
   transition: 0.3s ease;
@@ -224,8 +224,8 @@
 .dog-sizes {
   padding: 0px 70px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
   align-items: end;
   padding-bottom: 50px;
 }
@@ -257,14 +257,17 @@
   text-align: center;
   padding-bottom: 60px;
 }
-.size-1{
+.size-1 {
   border-radius: 20px;
   padding: 30px;
   background-position: center;
-    background-size: cover;
-    background-image: url(/images/boo.jfif);
+  background-size: cover;
+  background-image: url(/images/boo.jfif);
 }
-.size-1 h3, .size-2 h3, .size-3 h3, .size-4 h3{
+.size-1 h3,
+.size-2 h3,
+.size-3 h3,
+.size-4 h3 {
   color: white;
   padding-bottom: 10px;
 }
@@ -310,5 +313,54 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-cottonbro-studio-6568949.jpg);
-  height: 100vh;
+  height: fit-content;
+  padding: 0px 70px;
 }
+.workflow-content {
+  padding-top: 60px;
+}
+.how-we-do-it {
+  color: red;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.workfow-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 4rem;
+}
+.workflow-text1 h3 {
+  color: white;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.workflow-text1 p {
+  color: white;
+  font-weight: lighter;
+}
+.workfow-blocks{
+  padding-bottom: 15px;
+}
+.start-button{
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.start-button a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease;
+  
+}
+.start-button:hover{
+  background-color: black;
+}
+.start-button:hover a {
+  color: white;
+  letter-spacing: 1px;
+  transition: 0.2s ease;
+  
+}
+
