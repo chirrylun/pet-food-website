@@ -10,6 +10,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  background-color: transparent;
   box-shadow: 2px 2px 7px lightcoral;
   width: 100%;
   height: auto;
@@ -75,7 +76,7 @@
 .body-info-1 {
   height: 100vh;
   padding: 15px 60px;
-  display: flex;
+  display: block;
 
   text-align: left;
 }
@@ -100,6 +101,9 @@
   padding-top: 15px;
   color: red;
 }
+.bt4 a {
+  color: red;
+}
 .bt4 i {
   margin-left: 5px;
   color: red;
@@ -109,4 +113,18 @@
 }
 .food-image img {
   width: 100%;
+}
+.feature-container1 {
+  text-align: center;
+}
+.feature-container1 i {
+  color: red;
+  font-size: 50px;
+}
+.feature-container-text {
+  text-align: center;
+}
+.feature-container-text h2 {
+  color: Red;
+  padding-bottom: 10px;
 }
