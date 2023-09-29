@@ -317,6 +317,7 @@
   background-image: url(/images/pexels-cottonbro-studio-6568949.jpg);
   height: fit-content;
   padding: 0px 70px;
+  margin-bottom: 50px;
 }
 .workflow-content {
   padding-top: 60px;
@@ -363,6 +364,13 @@
   color: white;
   letter-spacing: 1px;
   transition: 0.2s ease;
-  
+}
+
+.testimonials1{
+  width: 300px;
+
+}
+.testimonials1 img{
+  width: 100%;
 }
 
