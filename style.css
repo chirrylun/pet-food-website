@@ -150,7 +150,7 @@
   background-color: white;
   padding: 30px 10px;
   border-radius: 30px;
-  box-shadow: 2px 2px 2px rgba(236, 172, 172, 1);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
   transition: 0.3s ease;
 }
 .feature-container1:hover {
@@ -178,11 +178,14 @@
 }
 .write-up1 {
   padding-top: 80px;
+  
 }
 .write-up1-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  align-items: center;
+  
 }
 .write-up-image {
   width: 500px;
@@ -194,10 +197,12 @@
 .write-up-text1 {
   padding-bottom: 20px;
   font-weight: lighter;
+  
 }
 .write-up-text2 {
   padding-bottom: 20px;
   font-weight: lighter;
+ 
 }
 .write-up-text h2 {
   padding-bottom: 10px;
@@ -264,6 +269,7 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/boo.jfif);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-1 h3,
 .size-2 h3,
@@ -284,6 +290,7 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-dominika-roseclay-6399508.jpg);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-3 {
   border-radius: 20px;
@@ -291,6 +298,7 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-barnabas-davoti-9294288.jpg);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-4 {
   border-radius: 20px;
@@ -298,6 +306,7 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-adrian-vieriu-11654187.jpg);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .benefits3 {
   padding: 0px 70px;
