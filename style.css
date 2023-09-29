@@ -37,10 +37,10 @@
   text-decoration-thickness: 2px;
   transition: text-decoration 0.1s ease-in-out;
 }
-.active{
+.active {
   text-decoration-line: underline;
-    text-decoration-color: red;
-    text-decoration-thickness: 2px;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
 }
 .sign-in-button a {
   color: red;
@@ -70,8 +70,8 @@
   text-align: center;
   padding: 20px;
 }
-.intro-cta p{
-font-weight: lighter;
+.intro-cta p {
+  font-weight: lighter;
 }
 .intro-cta h1 span {
   color: red;
@@ -104,9 +104,8 @@ font-weight: lighter;
 .benefits-text h1 {
   padding-bottom: 10px;
   font-weight: bold;
-  
 }
-.bt1{
+.bt1 {
   color: red;
   font-weight: 700;
 }
@@ -123,11 +122,10 @@ font-weight: lighter;
   transition: all 0.3s ease;
   font-weight: 700;
 }
-.bt4 a:hover{
+.bt4 a:hover {
   letter-spacing: 1px;
   transform: translateX(50px);
   transition: all 0.3s ease;
-  
 }
 .bt4 i {
   margin-left: 5px;
@@ -135,13 +133,13 @@ font-weight: lighter;
 }
 .food-image {
   width: 300px;
-  
+  height: auto;
 }
 .food-image img {
   width: 100%;
   border-radius: 120px;
 }
-.features-box{
+.features-box {
   padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -155,10 +153,15 @@ font-weight: lighter;
   box-shadow: 2px 2px 2px rgba(236, 172, 172, 0.37);
   transition: 0.3s ease;
 }
-.feature-container1:hover{
+.feature-container1:hover {
   background: rgb(245, 91, 108);
-    background: linear-gradient(90deg, rgba(245, 91, 108, 0.7) 0%, rgba(210, 120, 120, 0.5888480392156863) 35%, rgba(232, 222, 223, 1) 100%);
-    transition: 0.3s ease;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 91, 108, 0.7) 0%,
+    rgba(210, 120, 120, 0.5888480392156863) 35%,
+    rgba(232, 222, 223, 1) 100%
+  );
+  transition: 0.3s ease;
 }
 .feature-container1 i {
   color: red;
@@ -173,22 +176,21 @@ font-weight: lighter;
   padding-bottom: 10px;
   font-weight: 700;
 }
-.write-up1{
+.write-up1 {
   padding-top: 80px;
 }
-.write-up1-content{
-  
+.write-up1-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
-.write-up-image{
+.write-up-image {
   width: 500px;
 }
-.write-up-image img{
+.write-up-image img {
   width: 100%;
 }
-.write-up-text1{
+.write-up-text1 {
   padding-bottom: 20px;
   font-weight: lighter;
 }
@@ -196,26 +198,117 @@ font-weight: lighter;
   padding-bottom: 20px;
   font-weight: lighter;
 }
-.write-up-text h2{
+.write-up-text h2 {
   padding-bottom: 10px;
   font-weight: 700;
 }
 
-.body-info-2{
-  padding: 60px 70px;
+.body-info-2 {
   display: block;
-    background-color: rgb(248, 248, 248);
-    
-  }
-  .benefits2{
-text-align: center;
-font-weight: lighter;
-  }
-  .benefits2 h2{
-    font-weight: 700;
-    padding-bottom: 20px;
-  }
-  .natural{
-    color: red;
-    font-weight: 700;
-  }
+  background-color: rgb(248, 248, 248);
+}
+.benefits2 {
+  padding: 60px 70px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+.benefits2 h2 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.natural {
+  color: red;
+  font-weight: 700;
+}
+.dog-sizes {
+  padding: 0px 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 4rem;
+  align-items: end;
+  padding-bottom: 50px;
+}
+.dog-sizes h3 {
+  color: black;
+}
+.dog-sizes p {
+  font-weight: lighter;
+}
+.tiny-paw {
+  color: red;
+  font-size: 20px;
+}
+.small-paw {
+  color: red;
+  font-size: 25px;
+}
+.medium-paw {
+  color: red;
+  font-size: 30px;
+}
+.large-paw {
+  color: red;
+  font-size: 35px;
+}
+.dog-sizes-text {
+  padding: 0px 70px;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.size-1{
+  border-radius: 20px;
+  padding: 30px;
+  background-position: center;
+    background-size: cover;
+    background-image: url(/images/boo.jfif);
+}
+.size-1 h3, .size-2 h3, .size-3 h3, .size-4 h3{
+  color: white;
+  padding-bottom: 10px;
+}
+.size-1 p,
+.size-2 p,
+.size-3 p,
+.size-4 p {
+  color: white;
+}
+.size-2 {
+  border-radius: 20px;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/pexels-dominika-roseclay-6399508.jpg);
+}
+.size-3 {
+  border-radius: 20px;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/pexels-barnabas-davoti-9294288.jpg);
+}
+.size-4 {
+  border-radius: 20px;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/pexels-adrian-vieriu-11654187.jpg);
+}
+.benefits3 {
+  padding: 0px 70px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+
+.benefits3 h2 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.our-workflow {
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/pexels-cottonbro-studio-6568949.jpg);
+  height: 100vh;
+}
