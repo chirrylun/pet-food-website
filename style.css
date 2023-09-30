@@ -150,7 +150,8 @@
   background-color: white;
   padding: 30px 10px;
   border-radius: 30px;
-  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1),
+    5px 5px 15px rgba(246, 0, 0, 0.25);
   transition: 0.3s ease;
 }
 .feature-container1:hover {
@@ -178,14 +179,12 @@
 }
 .write-up1 {
   padding-top: 80px;
-  
 }
 .write-up1-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   align-items: center;
-  
 }
 .write-up-image {
   width: 500px;
@@ -197,12 +196,10 @@
 .write-up-text1 {
   padding-bottom: 20px;
   font-weight: lighter;
-  
 }
 .write-up-text2 {
   padding-bottom: 20px;
   font-weight: lighter;
- 
 }
 .write-up-text h2 {
   padding-bottom: 10px;
@@ -269,7 +266,8 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/boo.jfif);
-  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1),
+    5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-1 h3,
 .size-2 h3,
@@ -290,7 +288,8 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-dominika-roseclay-6399508.jpg);
-  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1),
+    5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-3 {
   border-radius: 20px;
@@ -298,7 +297,8 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-barnabas-davoti-9294288.jpg);
-  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1),
+    5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .size-4 {
   border-radius: 20px;
@@ -306,7 +306,8 @@
   background-position: center;
   background-size: cover;
   background-image: url(/images/pexels-adrian-vieriu-11654187.jpg);
-  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1), 5px 5px 15px rgb(0, 0, 0, 0.25);
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 1),
+    5px 5px 15px rgb(0, 0, 0, 0.25);
 }
 .benefits3 {
   padding: 0px 70px;
@@ -326,7 +327,7 @@
   background-image: url(/images/pexels-cottonbro-studio-6568949.jpg);
   height: fit-content;
   padding: 0px 70px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .workflow-content {
   padding-top: 60px;
@@ -350,10 +351,10 @@
   color: white;
   font-weight: lighter;
 }
-.workfow-blocks{
+.workfow-blocks {
   padding-bottom: 15px;
 }
-.start-button{
+.start-button {
   background-color: red;
   border: none;
   padding: 10px 15px;
@@ -364,9 +365,8 @@
   color: black;
   text-decoration: none;
   transition: 0.2s ease;
-  
 }
-.start-button:hover{
+.start-button:hover {
   background-color: black;
 }
 .start-button:hover a {
@@ -375,11 +375,41 @@
   transition: 0.2s ease;
 }
 
-.testimonials1{
+.testimonials1, .testimonials2, .testimonials3 {
   width: 300px;
+  text-align: center;
+}
+.testimonial-image ul{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.testimonial-image ul li{
+  padding: 5px;
+  color: gold;
 
 }
-.testimonials1 img{
-  width: 100%;
+.testimonials{
+  padding: 40px 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+.testimonial-text-header{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.testimonial-text-sub{
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.testimonial-text a {
+  color: red;
+  font-weight: 700;
+}
+.testimonial-text i{
+  padding-top: 10px;
+  color: red;
+  margin-left: 10px;
 }
 
